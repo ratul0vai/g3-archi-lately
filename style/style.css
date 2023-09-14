@@ -9,6 +9,12 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--Dark-01, #131313);
 }
 nav > ul {
   display: flex;
@@ -22,4 +28,53 @@ nav li {
 nav li a {
   text-decoration: none;
   color: var(--Dark-02, #424242);
+}
+.banner-text {
+  align-items: center;
+  margin: 0 auto;
+}
+.banner-dis {
+  max-width: 800px;
+  align-items: center;
+  margin: 0 auto;
+}
+.banner-title {
+  color: var(--Dark-01, #131313);
+  text-align: center;
+  font-weight: 700;
+  font-size: 4em;
+}
+.banner-dis {
+  color: var(--Dark-03, #727272);
+  text-align: center;
+  font-family: Work Sans;
+}
+.btn-primary {
+  border-radius: 8px;
+  color: white;
+  background: #ff900e;
+  padding: 20px 25px;
+  cursor: pointer;
+  border: none;
+}
+.banner img {
+  width: 100%;
+}
+/* responsive status */
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 967px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
 }
