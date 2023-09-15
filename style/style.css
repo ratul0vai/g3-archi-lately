@@ -83,3 +83,34 @@ main {
   max-width: 1440px;
   margin: 0 auto;
 }
+.teams-container {
+  display: flex;
+  align-items: center;
+}
+.teams-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.teams-content {
+  padding: 0px 70px;
+}
+.teams-title {
+  font-size: 2.3rem;
+}
+.quick-list {
+  color: var(--Dark-03, #727272);
+
+  font-weight: 500;
+}
+.of-our {
+  color: var(--Dark-01, #131313);
+  font-family: Work Sans;
+
+  font-weight: 700;
+}
+.text-features {
+  color: #ff900e;
+
+  font-weight: 700;
+}
