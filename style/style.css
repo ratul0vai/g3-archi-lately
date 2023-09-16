@@ -97,6 +97,31 @@ main {
 
   font-weight: 700;
 }
+.facts-dis {
+  color: var(--Dark-03, #727272);
+  max-width: 37.5rem;
+}
+/*Fact section*/
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-card-container .card-status {
+  font-size: 2.8rem;
+  color: #424242;
+  margin: 0px 10px;
+}
+.facts-card-container .card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 30px;
+}
+.facts-card-container .card-title {
+  color: var(--Dark-03, #727272);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
 /* responsive status */
 
 @media screen and (max-width: 576px) {
