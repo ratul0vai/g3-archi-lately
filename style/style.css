@@ -122,6 +122,26 @@ main {
   font-weight: 600;
   font-size: 1.25rem;
 }
+.facts-card-container {
+  gap: 20px;
+}
+.our-sponsors {
+  text-align: center;
+}
+.sponsors-details {
+  color: var(--Dark-03, #727272);
+}
+.sponsors-img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  gap: 20px;
+  align-items: center;
+}
+.sponsors-img img {
+  width: 165px;
+}
+
 /* responsive status */
 
 @media screen and (max-width: 576px) {
@@ -129,7 +149,9 @@ main {
     padding: 20px;
   }
   nav,
-  .teams-container {
+  .teams-container,
+  .facts-card-container,
+  .sponsors-img {
     flex-direction: column;
   }
   .teams-img {
